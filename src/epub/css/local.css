@@ -147,3 +147,7 @@ section[epub|type~="dedication"] > *{
 	}
 }
 /* End all dedications */
+
+p.new{
+	text-indent: 1em;
+}
