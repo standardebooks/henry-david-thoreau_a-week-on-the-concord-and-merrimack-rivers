@@ -46,7 +46,7 @@
 		<meta id="long-description" property="se:long-description" refines="#description"> LONG_DESCRIPTION </meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4232</dc:source>
-		<meta property="se:production-notes">(1) There is a section in chapter 3, beginning "being an ancient and capital seat" and ending "so they took leave and went away," that is rendered as a blockquote in the original but doesn't really work that way (being a mix of quotations and Thoreau's interjections); I have just rendered this as regular paragraphs.</meta>
+		<meta property="se:production-notes">(1) There is a section in chapter 3, beginning "being an ancient and capital seat" and ending "so they took leave and went away," that is rendered as a blockquote in the original but doesn't really work that way (being a mix of quotations and Thoreau's interjections); I have just rendered this as regular paragraphs. (2) I've modernized the spelling of many terms for e.g. American Indian peoples, Hindu texts and terminology. (3) Some of the blockquotes in the original were in quotation marks, others not; this may sometimes have been meant to distinguish Thoreau's original poems from those of other authors, but it did not seem consistent; I've omitted the quotation marks. In one case I split a blockquote into two blockquotes when Thoreau was tacking a line onto someone else's poem ("Than fifty years of Europe...")</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/A_Week_on_the_Concord_and_Merrimack_Rivers</meta>
