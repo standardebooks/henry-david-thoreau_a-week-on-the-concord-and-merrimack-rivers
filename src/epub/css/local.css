@@ -2,43 +2,12 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
+abbr.era{
+	font-variant: all-small-caps;
+}
+
 body [xml|lang]{
 	font-style: italic;
-}
-
-[epub|type~="z3998:drama"]{
-	border-collapse: collapse;
-}
-
-[epub|type~="z3998:drama"] tr:first-child td{
-	padding-top: 0;
-}
-
-[epub|type~="z3998:drama"] tr:last-child td{
-	padding-bottom: 0;
-}
-
-[epub|type~="z3998:drama"] td{
-	vertical-align: top;
-	padding: .5em;
-}
-
-[epub|type~="z3998:drama"] td:last-child{
-	padding-right: 0;
-}
-
-[epub|type~="z3998:drama"] td:first-child{
-	padding-left: 0;
-}
-
-[epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
-	hyphens: none;
-	text-align: right;
-	width: 20%;
-}
-
-[epub|type~="z3998:drama"] td p{
-	text-indent: 0;
 }
 
 [epub|type~="epigraph"]{
@@ -46,7 +15,6 @@ body [xml|lang]{
 	hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }
@@ -65,66 +33,40 @@ body [xml|lang]{
 	font-style: normal;
 }
 
-[epub|type~="z3998:letter"] header{
-	text-align: right;
-}
-
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
 
-[epub|type~="z3998:poem"] p{
+[epub|type~="z3998:verse"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p + p{
+[epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:poem"] + p{
+[epub|type~="z3998:verse"] + p{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p > span{
+[epub|type~="z3998:verse"] p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
-[epub|type~="z3998:poem"] p > span + br{
+[epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
-[epub|type~="z3998:postscript"]{
-	margin-top: 1em;
-	text-indent: 0;
-	text-align: left;
-}
-
-[epub|type~="z3998:salutation"] + p,
-[epub|type~="z3998:letter"] header + p{
+[epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
 
 [epub|type~="z3998:sender"],
-[epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
-}
-
-[epub|type~="z3998:stage-direction"]{
-	font-style: italic;
-}
-
-[epub|type~="z3998:stage-direction"]::before{
-	content: "(";
-	font-style: normal;
-}
-
-[epub|type~="z3998:stage-direction"]::after{
-	content: ")";
-	font-style: normal;
 }
 
 footer{
@@ -245,7 +187,6 @@ span.elision{
 	}
 }
 
-table[epub|type~="z3998:drama"],
-[epub|type~="z3998:drama"] table{
-	margin: 1em auto;
+.flaccus{
+	font-variant: small-caps;
 }
