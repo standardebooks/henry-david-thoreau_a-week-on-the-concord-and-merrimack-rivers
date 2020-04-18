@@ -64,7 +64,6 @@ body [xml|lang]{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:sender"],
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
 }
@@ -185,8 +184,4 @@ span.elision{
 	section > header [epub|type~="epigraph"]{
 		display: table;
 	}
-}
-
-.flaccus{
-	font-variant: small-caps;
 }
