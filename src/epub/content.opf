@@ -51,7 +51,6 @@
 		(3) Some of the blockquotes in the original were in quotation marks, others not; this seems to have been meant to distinguish Thoreau's original poems from those of other authors; I've omitted the quotation marks. In one case I split a blockquote into two blockquotes when Thoreau was tacking a line onto someone else's poem ("Than fifty years of Europe...").
 		(4) Some of the paragraphs that follow blockquotes continue the paragraph interrupted by the blockquote. For these the default formatting works. Other such paragraphs are genuinely new paragraphs. I've used the class "new" for these and added a style to indent the first line of them to match other new paragraphs.
 		(5) There's a section in chapter 6 during Thoreau's digression on Friendship in which he gives examples of how friends address one another. I've converted this into an unordered list, which I think matches the intention better, though not the typography of the original.
-		(6) In some poetry segments, some contractions are written with the contraction split (e.g. "'t is", "we 'll", "they 've"). This appears to have been done deliberately, not as a typographical glitch, as it's only contractions (never e.g. possessives) that appear this way. As this has a subtle effect on the way a poem is read aloud, I've tried to preserve this.
 		</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
