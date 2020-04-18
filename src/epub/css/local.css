@@ -83,10 +83,6 @@ header [epub|type~="epigraph"] cite{
 	font-variant: small-caps;
 }
 
-p.new{
-	text-indent: 1em;
-}
-
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
