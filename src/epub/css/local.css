@@ -29,6 +29,11 @@ body [xml|lang]{
 	font-style: italic;
 }
 
+span.elision{
+	margin: .5em;
+	margin-left: 3em;
+}
+
 [epub|type~="epigraph"] span.elision{
 	font-style: normal;
 }
@@ -137,11 +142,6 @@ section[epub|type~="epigraph"] > *{
 	font-variant: small-caps;
 }
 
-span.elision{
-	margin: .5em;
-	margin-left: 3em;
-}
-
 @supports(display: flex){
 	section[epub|type~="dedication"]{
 		align-items: center;
@@ -216,8 +216,4 @@ span.elision{
 
 table[epub|type~="z3998:drama"]{
 	margin: 1em auto;
-}
-
-[epub|type~="z3998:persona"]{
-	font-variant: all-small-caps;
 }
