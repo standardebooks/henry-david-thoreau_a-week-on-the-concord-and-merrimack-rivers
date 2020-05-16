@@ -38,7 +38,7 @@
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">On a rowboat excursion with his brother, Thoreau lets his thoughts meander with the river.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;In 1839, Thoreau and his brother took a small boat upriver and back. Some years later, while in his cabin at Walden Pond, he gathered his notes from that journey and other writings from his journals, and composed this, his first book.&lt;/p&gt;
+			&lt;p&gt;In 1839, &lt;a href="https://standardebooks.org/ebooks/henry-david-thoreau"&gt;Thoreau&lt;/a&gt; and his brother took a small boat upriver and back. Some years later, while in his cabin at Walden Pond, he gathered his notes from that journey and other writings from his journals, and composed this, his first book.&lt;/p&gt;
 			&lt;p&gt;Like the rivers it describes, the book meanders through varying territories and climates. He writes of the natural surroundings they encounter and of the history of the region, but also takes long and remarkable detours through topics like friendship, history, a comparison of Christianity and Hinduism, Vedic literature, government and conscience, Thoreau’s philosophy of literature, monuments and graveyards, poetry (in particular Ossian, Chaucer, and certain minor Greek poets), and the satires of Aulus Persius Flaccus. Thoreau also includes several poems of his own.&lt;/p&gt;
 			&lt;p&gt;Thoreau had the first edition of this book published at his own expense, and at first it struggled to find an audience. “I have now a library of nearly 900 volumes,” he remarked at one point, “over 700 of which I wrote myself.”&lt;/p&gt;
 		</meta>
