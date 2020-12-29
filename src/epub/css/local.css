@@ -179,6 +179,11 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 
+[epub|type~="z3998:letter"] header{
+	margin: 0;
+	text-align: left;
+}
+
 /* ************* */
 [epub|type~="z3998:drama"]{
 	border-collapse: collapse;
