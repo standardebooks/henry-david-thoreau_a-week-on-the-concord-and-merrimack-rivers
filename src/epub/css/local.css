@@ -10,6 +10,10 @@ body [xml|lang]{
 	font-style: italic;
 }
 
+body [xml|lang] em{
+	font-style: normal;
+}
+
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
