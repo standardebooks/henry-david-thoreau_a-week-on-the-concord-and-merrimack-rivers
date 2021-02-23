@@ -58,8 +58,8 @@ span.elision{
 
 [epub|type~="z3998:verse"] p > span{
 	display: block;
-	text-indent: -1em;
 	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:verse"] p > span + br{
@@ -90,23 +90,23 @@ header [epub|type~="epigraph"] cite{
 }
 
 p span.i1{
-	text-indent: -1em;
 	padding-left: 2em;
+	text-indent: -1em;
 }
 
 p span.i2{
-	text-indent: -1em;
 	padding-left: 3em;
+	text-indent: -1em;
 }
 
 p span.i3{
-	text-indent: -1em;
 	padding-left: 4em;
+	text-indent: -1em;
 }
 
 p span.i4{
-	text-indent: -1em;
 	padding-left: 5em;
+	text-indent: -1em;
 }
 
 section > header [epub|type~="epigraph"]{
