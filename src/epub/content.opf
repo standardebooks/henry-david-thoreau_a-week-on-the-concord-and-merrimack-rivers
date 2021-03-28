@@ -56,7 +56,7 @@
 		<dc:creator id="author">Henry David Thoreau</dc:creator>
 		<meta property="file-as" refines="#author">Thoreau, Henry David</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Henry_David_Thoreau</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n78095600</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78095600</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Hendrik Dirk Kruseman van Elten</dc:contributor>
 		<meta property="file-as" refines="#artist">Kruseman van Elten, Hendrik Dirk</meta>
