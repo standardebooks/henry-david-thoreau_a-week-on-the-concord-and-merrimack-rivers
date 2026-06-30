@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/henry-david-thoreau/a-week-on-the-concord-and-merrimack-rivers</dc:identifier>
 		<dc:date>2020-04-20T19:29:30Z</dc:date>
 		<meta property="dcterms:modified">2020-04-20T19:29:30Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -35,7 +36,7 @@
 		<meta property="term" refines="#subject-1">sh85030640</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85083881</meta>
-		<meta property="se:subject">Nonfiction</meta>
+		<meta property="schema:genre">Nonfiction</meta>
 		<dc:description id="description">On a rowboat excursion with his brother, Thoreau lets his thoughts meander with the river.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;In 1839, &lt;a href="https://standardebooks.org/ebooks/henry-david-thoreau"&gt;Thoreau&lt;/a&gt; and his brother took a small boat upriver and back. Some years later, while in his cabin at Walden Pond, he gathered his notes from that journey and other writings from his journals, and composed this, his first book.&lt;/p&gt;
@@ -45,23 +46,21 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4232</dc:source>
 		<dc:source>https://www.google.com/books/edition/A_Week_on_the_Concord_and_Merrimack_Rive/OyE6AQAAIAAJ</dc:source>
-		<meta property="se:production-notes">(1) There is a section in chapter 3, beginning "being an ancient and capital seat" and ending "so they took leave and went away," that is rendered as a blockquote in the original but doesn't really work that way (being a mix of quotations and Thoreau's interjections); I have just rendered this as regular paragraphs. Another section in chapter 6 (from "The Hon. Wyseman Clagett" to "Squire MacGaw's") has a similar problem and I have tried to solve it by treating the blockquote formatting in the original as a mistake.
-		(2) I've modernized the spelling of many terms for e.g. American Indian peoples, Hindu texts and terminology.
-		(3) Some of the blockquotes in the original were in quotation marks, others not; this seems to have been meant to distinguish Thoreau's original poems from those of other authors; I've omitted the quotation marks. In one case I split a blockquote into two blockquotes when Thoreau was tacking a line onto someone else's poem ("Than fifty years of Europe...").
-		(4) There's a section in chapter 6 during Thoreau's digression on Friendship in which he gives examples of how friends address one another. I've converted this into an unordered list, which I think matches the intention better, though not the typography of the original.</meta>
-		<meta property="se:word-count">115500</meta>
-		<meta property="se:reading-ease.flesch">61.5</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/A_Week_on_the_Concord_and_Merrimack_Rivers</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/henry-david-thoreau_a-week-on-the-concord-and-merrimack-rivers</meta>
+		<meta property="schema:wordCount">115500</meta>
+		<meta property="schema:educationalLevel">61.5</meta>
+		<link href="https://en.wikipedia.org/wiki/A_Week_on_the_Concord_and_Merrimack_Rivers" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/henry-david-thoreau_a-week-on-the-concord-and-merrimack-rivers" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Henry David Thoreau</dc:creator>
 		<meta property="file-as" refines="#author">Thoreau, Henry David</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Henry_David_Thoreau</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78095600</meta>
+		<link href="https://en.wikipedia.org/wiki/Henry_David_Thoreau" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n78095600.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">Hendrik Dirk Kruseman van Elten</dc:contributor>
 		<meta property="file-as" refines="#artist">Kruseman van Elten, Hendrik Dirk</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Hendrik_Dirk_Kruseman_van_Elten</meta>
+		<link href="https://en.wikipedia.org/wiki/Hendrik_Dirk_Kruseman_van_Elten" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Charles Franks</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Franks, Charles</meta>
@@ -71,11 +70,11 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David M. Gross</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Gross, David M.</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://sniggle.net/TPL/</meta>
+		<link href="https://sniggle.net/TPL/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -84,7 +83,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-2">http://www.robinwhittleton.com/</meta>
+		<link href="http://www.robinwhittleton.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
