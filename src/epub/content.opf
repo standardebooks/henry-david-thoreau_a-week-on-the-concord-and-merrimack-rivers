@@ -37,7 +37,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85083881</meta>
 		<meta property="schema:genre">Nonfiction</meta>
-		<dc:abstract>On a rowboat excursion with his brother, Thoreau lets his thoughts meander with the river.</dc:abstract>
+		<meta property="schema:abstract">On a rowboat excursion with his brother, Thoreau lets his thoughts meander with the river.</meta>
 		<dc:description>
 			&lt;p&gt;In 1839, &lt;a href="https://standardebooks.org/ebooks/henry-david-thoreau"&gt;Thoreau&lt;/a&gt; and his brother took a small boat upriver and back. Some years later, while in his cabin at Walden Pond, he gathered his notes from that journey and other writings from his journals, and composed this, his first book.&lt;/p&gt;
 			&lt;p&gt;Like the rivers it describes, the book meanders through varying territories and climates. He writes of the natural surroundings they encounter and of the history of the region, but also takes long and remarkable detours through topics like friendship, history, a comparison of Christianity and Hinduism, Vedic literature, government and conscience, Thoreau’s philosophy of literature, monuments and graveyards, poetry (in particular Ossian, Chaucer, and certain minor Greek poets), and the satires of Aulus Persius Flaccus. Thoreau also includes several poems of his own.&lt;/p&gt;
